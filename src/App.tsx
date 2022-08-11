@@ -1,12 +1,12 @@
-import { Button } from 'semantic-ui-react'
+import { Button, Segment } from 'semantic-ui-react'
 
 export default function App() {
 
   return (
-    <div >
+    <Segment >
        <Button primary>Primary</Button>
     <Button secondary>Secondary</Button>
-    </div>
+    </Segment>
   )
 }
 
